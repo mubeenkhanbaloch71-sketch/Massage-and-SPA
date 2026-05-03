@@ -1,0 +1,508 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#hero-container{
+    width: 100%;
+    height: 120px;
+    /* border: 2px solid red; */
+    /* background-image: url(/images/spa-therapy\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(137, 43, 226, 0.292); */
+}
+#header-container{
+    width: 100%;
+    height: 117px;
+    display: flex;
+    /* border: 1px solid black; */
+}
+#logo-pic{
+    width: 150px;
+    height: 100%;
+    background-image: url(/images/massage-black-logo-free.svg);
+    background-size: 100% 100%;
+    margin-left: 30px;
+    /* display: inline-block;
+    vertical-align: top; */
+}
+#header-links{
+    width: 600px;
+    height: 90%;
+    /* border: 1px solid red; */
+    margin-left: 265px;
+    margin-top: 5px;
+
+
+}
+.header-links{
+    color: black;
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+    font-size: 14px;
+    padding-top: 20px;
+}
+.header-links:hover{
+    color: #9D467E;
+    transition: 0.5s;
+}
+.appointment-btn{
+    width: 248px;
+    height: 52px;
+    border: none;
+    background-color: #9D467E;
+    color: white;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-left: -60px;
+    letter-spacing: 1px;
+}
+.appointment-btn:hover{
+    background-color: #C157A3;
+    transition: 0.5s;
+}
+#about-hero{
+    width: 100%;
+    height: 320px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+    background-image: url(/images/pic-12.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    background-color: #80005341;
+    
+}
+
+.about-heading{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 95px;
+    color: white;
+    padding-left: 60px;
+}
+/* ----------------- */
+#lorem-cintainer{
+    width: 100%;
+    height: 1140px;
+    border-top: 1px solid #F4F4F4;
+    
+    background-color: #F4F4F4;
+}
+.lorems{
+    width: 87.1%;
+    height: 266px;
+    /* border: 1px solid red; */
+    margin-left: 80px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+   
+}
+.lorems1{
+    width: 87.1%;
+    height: 266px;
+    /* border: 1px solid red; */
+    margin-left: 80px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+   
+}
+.lorem-box{
+    width: 530px;
+    height: 100%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    /* border: 1px solid red; */
+}
+
+.qoutes{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 130px;
+    font-weight: bold;
+    margin-top: -50px;
+    padding-left: 40px;
+    color: #9D467E;
+}
+.lorem3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding-left: 50px;
+    margin-top: -30px;
+    word-spacing: 2px;
+    /* padding-top: 40px; */
+    letter-spacing: 1px;
+    line-height: 27px;
+    /* text-align: center; */
+    
+
+}
+.name{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    padding-left: 50px;
+    margin-top: 43px;
+    color: #9D467E;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+
+}
+/* footer */
+#footer-container{
+    width: 100%;
+    height: 700px;
+    /* border: 2px solid red; */
+    background-image: url(/images/footer-image.jpg);
+    /* background-size: cover; */
+    background-position: center;
+    background-blend-mode: darken;
+    background-color: #00000081;
+}
+.book-online{
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    padding-top: 122px;
+    text-align: center;
+}
+.read-heading5{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 43px;
+    color: white;
+    text-align: center;
+    /* letter-spacing: 0.3px; */
+    margin-top: 25px;
+}
+.lorem-div{
+    width: 70%;
+    height: 150px;
+    margin-left: 200px;
+}
+.lorem2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    /* padding-left: 46px; */
+    padding-top: 40px;
+    letter-spacing: 1px;
+    line-height: 27px;
+    text-align: center;
+    color: white;
+    
+
+}
+.appointment-btn3{
+    width: 248px;
+    height: 52px;
+    border: none;
+    background-color: #9D467E;
+    color: white;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-left: 520px;
+    letter-spacing: 1px;
+}
+.book-online2{
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    padding-top: 22px;
+    text-align: center;
+}
+.read-heading6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 43px;
+    color: white;
+    text-align: center;
+    /* letter-spacing: 0.3px; */
+    margin-top: 10px;
+}
+.copyright{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-left: 37px;
+    padding-top: 100px;
+    letter-spacing: 1px;
+    line-height: 27px;
+    /* text-align: center; */
+    color: white;
+    /* display: inline-block;
+    vertical-align: top; */
+}
+.powered{
+    text-align: end;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-right:37px;
+    margin-top: -27px;
+    letter-spacing: 1px;
+    line-height: 27px;
+    /* text-align: center; */
+    color: white;
+    /* display: inline-block;
+    vertical-align: top; */
+    
+}
+.appointment-btn3:hover{
+        background-color: #C157A3;
+        transition: 0.5s;
+    }
+    @media screen and (max-width: 580px){
+    #hero-container{
+    width: 100%;
+    height: 100px;
+}
+#header-container{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    /* border: 1px solid black; */
+}
+#logo-pic{
+    width: 100px;
+    height: 80%;
+    background-image: url(/images/massage-black-logo-free.svg);
+    background-size: 100% 100%;
+    margin-left: 10px;
+    /* display: inline-block;
+    vertical-align: top; */
+}
+#header-links{
+    width: 500px;
+    height: 50%;
+    /* border: 1px solid red; */
+    margin-left: 20px;
+    margin-top: -10px;
+
+
+}
+.header-links{
+    color: black;
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 3px;
+    font-size: 11px;
+}
+.header-links:hover{
+    color: #9D467E;
+    transition: 0.5s;
+}
+.appointment-btn{
+    width: 150px;
+    height: 35px;
+    border: none;
+    background-color: #9D467E;
+    color: white;
+    font-size: 13px;
+    border-radius: 30px;
+    margin-top: 60px;
+    margin-left: -440px;
+    letter-spacing: 1px;
+}
+.appointment-btn:hover{
+    background-color: #C157A3;
+    transition: 0.5s;
+}
+#footer-container{
+    width: 100%;
+    height: 550px;
+    /* border: 2px solid red; */
+    background-image: url(/images/footer-image.jpg);
+    /* background-size: cover; */
+    background-position: center;
+    background-blend-mode: darken;
+    background-color: #00000081;
+}
+.book-online{
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    padding-top: 40px;
+    text-align: center;
+}
+.read-heading5{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    /* letter-spacing: 0.3px; */
+    margin-top: 25px;
+}
+.lorem-div{
+    width: 90%;
+    height: 150px;
+    margin-left: 25px;
+}
+.lorem2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    /* padding-left: 46px; */
+    padding-top: 30px;
+    letter-spacing: 1px;
+    line-height: 27px;
+    text-align: center;
+    color: white;
+    
+
+}
+.appointment-btn3{
+    width: 248px;
+    height: 52px;
+    border: none;
+    background-color: #9D467E;
+    color: white;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-left: 125px;
+    letter-spacing: 1px;
+}
+.appointment-btn3:hover{
+        background-color: #C157A3;
+        transition: 0.5s;
+    }
+
+.book-online2{
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    padding-top: -10px;
+    text-align: center;
+}
+.read-heading6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    /* letter-spacing: 0.3px; */
+    margin-top: 10px;
+}
+.copyright{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+   
+    padding-top: 0px;
+    letter-spacing: 1px;
+    line-height: 27px;
+     text-align: center;
+    margin-top: 20px;
+    color: white;
+    /* display: inline-block;
+    vertical-align: top; */
+}
+.powered{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    
+    margin-top: 0px;
+    letter-spacing: 1px;
+    line-height: 27px;
+    padding-left: 80px;
+    /* text-align: center; */
+    color: white;
+    /* display: inline-block;
+    vertical-align: top; */
+    
+}
+#about-hero{
+    width: 100%;
+    height: 150px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+      background-image: url(/images/pic-12.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    background-color: #80005358;
+    
+}
+.about-heading{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+    padding-left: 140px;
+    text-align: center;
+}
+#lorem-cintainer{
+    width: 100%;
+    height: 1700px;
+    border-top: 1px solid #F4F4F4;
+    
+    background-color: #F4F4F4;
+}
+.lorems{
+    width: 100%;
+    height: auto;
+    /* border: 3px solid red; */
+    margin-left: 0px;
+    display: inline;
+    margin-top: 50px;
+   
+}
+.lorems1{
+    width: 100%;
+    height: auto;
+    /* border: 3px solid red; */
+    margin-left: 0px;
+    display: inline;
+    margin-top: 50px;
+   
+}
+.lorem-box{
+    width: 430px;
+    height: 250px;
+    margin-top: 70px;
+    margin-left: 25px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    /* border: 1px solid red; */
+}
+
+.qoutes{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120px;
+    font-weight: bold;
+    
+    padding-left: 0px;
+    color: #9D467E;
+    text-align: center;
+}
+.lorem3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-left: 0px;
+    margin-top: -40px;
+    word-spacing: 2px;
+    /* padding-top: 40px; */
+    letter-spacing: 1px;
+    line-height: 27px;
+    text-align: center;
+    
+
+}
+.name{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    padding-left: 0px;
+    margin-top: 30px;
+    color: #9D467E;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    text-align: center;
+
+}
+    }
