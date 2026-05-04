@@ -1,18 +1,11 @@
-*{
-    margin: 0%;
-    padding: 0%;
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 #hero-container{
     width: 100%;
     height: 840px;
-    /* border: 2px solid red; */
-    /* background-image: url(/images/spa-therapy\ \(1\).jpg);
-    background-size: cover;
-    background-position: center;
-    background-color: rgba(137, 43, 226, 0.292); */
-
-
-
     background:
     linear-gradient(
       to bottom,
@@ -168,7 +161,8 @@
     color: white;
     border-radius: 30px;
     margin-top: 40px;
-    margin-left: 540px;
+    display: block;
+    margin: 40px auto 0;
     letter-spacing: 1px;
     
 }
@@ -464,9 +458,11 @@
     border: none;
     background-color: #9D467E;
     color: white;
+    
     border-radius: 30px;
     margin-top: 50px;
-    margin-left: 520px;
+    display: block;
+    margin: 50px auto 0;
     letter-spacing: 1px;
 }
 .appointment-btn3:hover{
@@ -568,41 +564,39 @@
   background-position: center;
 }
 #header-container{
-    width: 100%;
-    height: 117px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    /* border: 1px solid black; */
+    height: auto;
+        min-height: 80px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 10px;
 }
 #logo-pic{
     width: 100px;
-    height: 80%;
-    background-image: url(/images/massage-logo-free.svg);
-    background-size: 100% 100%;
-    margin-left: 10px;
-    margin-top: 25px;
-    /* display: inline-block;
-    vertical-align: top; */
+        height: 60px;
+        margin-left: 10px;
+        flex-shrink: 0;
 }
 #header-links{
-    width: 70%;
-    height: 50%;
-    /* border: 1px solid red; */
-    margin-left: 20px;
-    margin-top: 5px;
+    width: 100%;
+        height: auto;
+        margin-left: 0;
+        margin-top: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
 
 
 }
 .header-links{
     color: #c6c6c6;
-    display: inline-block;
+    /* display: inline-block;
     vertical-align: top;
-    text-decoration: none;
+    text-decoration: none; */
     font-family: Arial, Helvetica, sans-serif;
-    padding-left: 3px;
+    padding-left: 6px;
     font-size: 11px;
-    /* padding-top: 20px; */
+    padding-top: 4px;
 }
 .header-links:hover{
     color: #FFFFFF;
@@ -610,13 +604,14 @@
 }
 .appointment-btn{
     width: 150px;
-    height: 50px;
+    height: 44px;
     border: none;
     background-color: #9D467E;
     color: white;
-    font-size: 13px;
+    font-size: 12px;
     border-radius: 30px;
-    margin-left: 170px;
+    margin-left: 6px;
+    margin-top: 6px;
     letter-spacing: 1px;
 }
 .appointment-btn:hover{
@@ -625,11 +620,12 @@
 }
 #head-text{
     width: 100%;
-    height: 400px;
+    height: auto;
     /* border: 1px solid red; */
     margin-left: 0px;
-    margin-top: 50px;
+    margin-top: 40px;
     text-align: center;
+    padding: 0 15px;
 }
 .hero-para{
     /* font-family: Arial, Helvetica, sans-serif; */
@@ -655,26 +651,30 @@
 }
 .book-btn{
     width: 148px;
-    height: 50px;
+    height: 44px;
     border: none;
     border-radius: 25px;
     background-color: #69727D;
     color: white;
-    margin-top: 41px;
-    font-size: 16px;
+    margin-top: 25px;
+    font-size: 15px;
+     display: block;
+        margin-left: auto;
+        margin-right: auto;
 }
 #read-container{
- width: 99%;
- height: 780px;
+ width: 100%;
+ height: auto;
+ padding-bottom: 40px;
  background-color: #F4F4F4;
  border-top: 1px solid #F4F4F4;
 
 }
 .heading-read{
     width: 100%;
-    height: 90px;
+    height: auto;
     /* border: 1px solid black; */
-    margin-top: 80px;
+    margin-top: 50px;
     /* margin-left: 400px; */
 }
 .welcome{
@@ -714,8 +714,11 @@
     color: white;
     border-radius: 30px;
     margin-top: 90px;
-    margin-left: 155px;
+    /* margin-left: 155px; */
     letter-spacing: 1px;
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
     
 }
 .read-btn:hover{
@@ -724,20 +727,21 @@
 }
 .services-container{
     width: 100%;
-    height: 477px;
+    height: auto;
     /* border: 2px solid red; */
     margin-left: 0px;
     margin-top: 0px;
-    display: inline;
+    display: block;
     
 
 }
 .services-container2{
     width: 100%;
-    height: 800px;
+    height: auto;
+    /* height: 800px; */
     /* border: 2px solid red; */
     margin-left: 0px;
-    display: inline;
+    display: block;
     /* margin-top: 130px; */
     
 
@@ -807,11 +811,14 @@
     color: white;
     margin-top: 46px;
     font-size: 16px;
-    margin-left: 190px;
+    margin-left: auto;
+        margin-right: auto;
+        display: block;
 }
 #booking-container{
     width: 100%;
-    height: 404px;
+    height: auto;
+    /* height: 404px; */
     border-top: 1px solid white;
     background-image: url(/images/banner-02.jpg);
     background-size: cover;
@@ -836,8 +843,9 @@
     font-weight: bold;
     font-size: 25px;
     color: white;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 0 15px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
     text-align: center;
     /* letter-spacing: 0.3px; */
     margin-top: 10px;
@@ -859,9 +867,9 @@
     text-align: center;
     line-height: 25px;
     letter-spacing: 0.5px;
-    padding-top: 20px;
-    padding-left: 35px;
-    padding-right: 35px;
+    padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 15px;
 }
 .book-btn3{
     width: 155px;
@@ -870,13 +878,16 @@
     border-radius: 25px;
     background-color: #69727D;
     color: white;
-    margin-top: 50px;
+    margin-top: 30px;
     font-size: 16px;
-    margin-left: 170px;
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
 }
 #testinomial-container{
     width: 100%;
-    height: 960px;
+    height: auto;
+    /* height: 960px; */
     /* border: 2px solid red; */
     background-color: #F2F2F2;
 }
@@ -902,20 +913,23 @@
 }
 .review-container{
     width: 100%;
-    height: 360px;
+    height: auto;
     /* border: 2px solid red; */
-    margin-left: 63px;
-    margin-top: 100px;
-    display: inline;
+    margin-left: 0px;
+    margin-top: 30px;
+    display: block;
+     padding: 0 15px;
     
 }
 .review-box{
-    width: 88%;
-    height: 320px;
+    width: 100%;
+    height: auto;
     /* border: 1px solid black; */
     background-color: #FFFFFF;
-    margin-left: 30px;
-    margin-top: 50px;
+    margin-left: 0px;
+    margin-top: 20px;
+     display: block;
+        padding-bottom: 15px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -927,6 +941,8 @@
     letter-spacing: 1px;
     line-height: 25px;
     text-align: center;
+    padding-left: 15px;
+        padding-right: 15px;
 
 }
 .welcome5{
@@ -939,37 +955,40 @@
     letter-spacing: 0.3px;
     padding-top: 10px;
      text-align: center;
-     padding-right: 43px;
+     padding-right: 0px;
 
 }
 .star{
-    padding-top: 10px;
+    padding-top: 8px;
    /* padding-left: 44px; */
    text-align: center;
-    padding-right: 43px;
+    padding-right: 0px;
+    padding-left: 0px;
 
 }
 .profile-pic{
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     border-radius: 50%;
     background-image: url(/images/clients01-free-img-150x150.jpg);
     background-size: cover;
-    margin-top: 0px;
-    margin-left: 160px;
+    margin-top: 10px;
+    margin-left: auto;
+        margin-right: auto;
 }
 .profile-pic2{
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     border-radius: 50%;
     background-image: url(/images/clients03-free-img-150x150.jpg);
     background-size: cover;
-    margin-top: 0px;
-    margin-left: 160px;
+    margin-top: 10px;
+    margin-left: auto;
+        margin-right: auto;
 }
 #footer-container{
     width: 100%;
-    height: 550px;
+    height: auto;
     /* border: 2px solid red; */
     background-image: url(/images/footer-image.jpg);
     /* background-size: cover; */
@@ -981,7 +1000,7 @@
     font-size: 14px;
     font-weight: bold;
     color: white;
-    padding-top: 40px;
+    padding-top: 50px;
     text-align: center;
 }
 .read-heading5{
@@ -994,9 +1013,10 @@
     margin-top: 25px;
 }
 .lorem-div{
-    width: 90%;
-    height: 150px;
-    margin-left: 25px;
+    width: 95%;
+    height: auto;
+    margin-left: auto;
+        margin-right: auto;
 }
 
 
@@ -1004,7 +1024,7 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     /* padding-left: 46px; */
-    padding-top: 30px;
+    padding-top: 20px;
     letter-spacing: 1px;
     line-height: 27px;
     text-align: center;
@@ -1019,8 +1039,10 @@
     background-color: #9D467E;
     color: white;
     border-radius: 30px;
-    margin-top: 10px;
-    margin-left: 125px;
+     display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 25px;
     letter-spacing: 1px;
 }
 .appointment-btn3:hover{
@@ -1046,13 +1068,13 @@
 }
 .copyright{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-   
+    font-size: 13px;
+   padding-left: 0;
     padding-top: 0px;
     letter-spacing: 1px;
     line-height: 27px;
      text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
     color: white;
     /* display: inline-block;
     vertical-align: top; */
@@ -1060,7 +1082,7 @@
 .powered{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 13px;
     
     margin-top: 0px;
     letter-spacing: 1px;
