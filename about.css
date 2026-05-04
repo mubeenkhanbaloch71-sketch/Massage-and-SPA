@@ -361,8 +361,10 @@
 }
 #header-container{
     width: 100%;
-    height: 100px;
+    height: 117px;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     /* border: 1px solid black; */
 }
 #logo-pic{
@@ -371,15 +373,16 @@
     background-image: url(/images/massage-black-logo-free.svg);
     background-size: 100% 100%;
     margin-left: 10px;
+    margin-top: 25px;
     /* display: inline-block;
     vertical-align: top; */
 }
 #header-links{
-    width: 500px;
+    width: 70%;
     height: 50%;
     /* border: 1px solid red; */
     margin-left: 20px;
-    margin-top: -10px;
+    margin-top: 5px;
 
 
 }
@@ -397,16 +400,15 @@
     transition: 0.5s;
 }
 .appointment-btn{
-    width: 150px;
-    height: 35px;
+    width: 130px;
+    height: 45px;
     border: none;
     background-color: #9D467E;
     color: white;
-    font-size: 13px;
+    font-size: 11px;
     border-radius: 30px;
-    margin-top: 60px;
-    margin-left: -440px;
-    letter-spacing: 1px;
+    margin-left: 185px;
+    letter-spacing: 0.5px;
 }
 .appointment-btn:hover{
     background-color: #C157A3;
@@ -439,9 +441,10 @@
     margin-top: 25px;
 }
 .lorem-div{
-    width: 90%;
+    width: 80%;
     height: 150px;
-    margin-left: 25px;
+    margin-left: 50px;
+
 }
 .lorem2{
     font-family: Arial, Helvetica, sans-serif;
@@ -521,9 +524,8 @@
     height: 150px;
     /* border: 2px solid red; */
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
-    
     background-image: url(/images/katherine-hanlon.jpg);
     background-size: cover;
     background-position: center;
@@ -536,7 +538,7 @@
     font-weight: bold;
     font-size: 50px;
     color: white;
-    padding-left: 140px;
+    padding-left: 0px;
     text-align: center;
 }
 #about-me{
@@ -545,12 +547,13 @@
     /* border: 2px solid red; */
     background-color: #F4F4F4;
 }
-/* .lorem-container{
-    width: 70%;
-    height: 200px;
-    border: 1px solid red;
+.lorem-container{
 
-} */
+    width: 80%;
+    height: 200px;
+    /* border: 1px solid red; */
+
+}
  .lorem-txt{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -590,12 +593,12 @@
     /* display: inline-block;
     vertical-align: top; */
     margin-top: -25px;
-    padding-left: 100px;
+    padding-left: 140px;
      letter-spacing: 1px;
      color: rgb(36, 36, 36);
 }
 #few-words{
-    width: 500px;
+    width: 400px;
     height: 311px;
     margin-top: 170px;
     /* border: 1px solid red; */
@@ -603,14 +606,14 @@
     vertical-align: top;
 }
 #picture{
-    width: 745.5px;
+    width: 100%;
     height: 204px;
      margin-top: -270px;
     /* border: 1px solid red; */
     display: inline-block;
     vertical-align: top;
     background-image: url(/images/pic-10.jpg);
-    background-size: 65% 100%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     
 }
@@ -620,7 +623,7 @@
     font-size: 15px;
     color: #9D467E;
     padding-left: 0px;
-    margin-top: -200px;
+    margin-top: -100px;
     text-align: center;
 }
 .who-heading{
@@ -637,7 +640,7 @@
     width: 90%;
     height: 300px;
     /* border: 1px solid red; */
-    margin-left: 35px;
+    margin-left: 25px;
     margin-top: -50px;
 
 }
@@ -675,7 +678,7 @@
 
 }
 #massage-benifits{
-    width: 100%;
+    width: 90%;
     height: 810px;
     margin-top: 150px;
     text-align: start;
@@ -687,8 +690,8 @@
     font-weight: bold;
     font-size: 15px;
     color: #9D467E;
-    padding-left: 0px;
-    margin-top: -100px;
+    padding-left: 30px;
+    margin-top: -200px;
     
 }
 .whoo-heading{
@@ -696,7 +699,7 @@
     font-weight: bold;
     font-size: 25px;
     color: #9D467E;
-    padding-left: 0px;
+    padding-left: 30px;
     padding-top: 20px;
       
     

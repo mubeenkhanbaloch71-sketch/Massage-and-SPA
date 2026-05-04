@@ -391,9 +391,10 @@
 }
 #header-container{
     width: 100%;
-    height: 100px;
+    height: 117px;
     display: flex;
-    /* border: 1px solid black; */
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 #logo-pic{
     width: 100px;
@@ -401,15 +402,16 @@
     background-image: url(/images/massage-black-logo-free.svg);
     background-size: 100% 100%;
     margin-left: 10px;
+    margin-top: 25px;
     /* display: inline-block;
     vertical-align: top; */
 }
 #header-links{
-    width: 500px;
+    width: 70%;
     height: 50%;
     /* border: 1px solid red; */
     margin-left: 20px;
-    margin-top: -10px;
+    margin-top: 5px;
 
 
 }
@@ -427,16 +429,15 @@
     transition: 0.5s;
 }
 .appointment-btn{
-    width: 150px;
-    height: 35px;
+    width: 130px;
+    height: 45px;
     border: none;
     background-color: #9D467E;
     color: white;
-    font-size: 13px;
+    font-size: 11px;
     border-radius: 30px;
-    margin-top: 60px;
-    margin-left: -440px;
-    letter-spacing: 1px;
+    margin-left: 185px;
+    letter-spacing: 0.5px;
 }
 .appointment-btn:hover{
     background-color: #C157A3;
@@ -571,12 +572,12 @@
 
 /* ------------ */
 #contact{
-    width: 100%;
+    width: 80%;
     height: 1150px;
     /* border: 2px solid red; */
 }
 .contact-text{
-    width: 500px;
+    width: 100%;
     height: 600px;
     
      margin-top: 110px;
@@ -598,7 +599,7 @@
     /* padding-left: 95px; */
     text-align: center;
     color: #9D467E;
-    margin-left: -120px;
+    margin-left: 0px;
     letter-spacing: 0.3px;
     /* margin-top: 90px; */
 
@@ -608,7 +609,7 @@
     font-weight: bold;
     font-size: 30px;
     color: #9D467E;
-    margin-left: -120px;
+    margin-left: 0px;
     /* padding-left: 95px; */
     text-align: center;
     letter-spacing: 0.3px;
@@ -630,7 +631,7 @@
 .lorem5{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
-    margin-left: -285px;
+    margin-left: -150px;
     padding-top: 3px;
     letter-spacing: 1px;
     text-align: center;
@@ -678,7 +679,7 @@
   /* margin-right: 10px; */
 }
 .social-icons{
-    margin-left: 100px;
+    margin-left: 95px;
     margin-top: -20px;
 }
 .social-icons i {
@@ -703,7 +704,7 @@
 
 }
 .placeholdar1{
-    width: 98%;
+    width: 99%;
     height: 45px;
     border: 1px solid rgba(181, 181, 181, 0.703);
     padding-left: 10px;
@@ -713,7 +714,7 @@
     background-color: #FAFAFA;
 }
 .placeholdar{
-    width: 98%;
+    width: 99%;
     height: 45px;
      border: 1px solid rgba(181, 181, 181, 0.703);
     padding-left: 10px;
@@ -739,7 +740,7 @@
     border: none;
 }
 .placeholdar2{
-    width: 98%;
+    width: 99%;
     height: 90px;
      border: 1px solid rgba(181, 181, 181, 0.703);
     padding-left: 10px;
