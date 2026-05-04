@@ -666,7 +666,7 @@
 }
 #read-container{
  width: 100%;
- height: auto;
+ height: 800px;
  padding-bottom: 40px;
  background-color: #F4F4F4;
  border-top: 1px solid #F4F4F4;
@@ -691,7 +691,7 @@
 .read-heading{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 24px;
     text-align: center;
     color: #9D467E;
     letter-spacing: 0.3px;
@@ -699,14 +699,14 @@
 }
 .paragraph{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 14px;
     color: black;
     text-align: center;
     line-height: 20px;
     letter-spacing: 1.2px;
     padding-top: 25px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .read-btn{
     width: 200px;
@@ -715,7 +715,7 @@
     background-color: #9D467E;
     color: white;
     border-radius: 30px;
-    margin-top: 90px;
+    margin-top: 120px;
     /* margin-left: 155px; */
     letter-spacing: 1px;
     display: block;

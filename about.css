@@ -1,6 +1,7 @@
-*{
-    margin: 0%;
-    padding: 0%;
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 #hero-container{
     width: 100%;
@@ -357,32 +358,30 @@
     @media screen and (max-width: 580px){
     #hero-container{
     width: 100%;
-    height: 100px;
+    height: auto;
 }
 #header-container{
-    width: 100%;
-    height: 117px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    /* border: 1px solid black; */
+    height: auto;
+        min-height: 80px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 10px;
 }
 #logo-pic{
     width: 100px;
-    height: 80%;
-    background-image: url(/images/massage-black-logo-free.svg);
-    background-size: 100% 100%;
-    margin-left: 10px;
-    margin-top: 25px;
-    /* display: inline-block;
-    vertical-align: top; */
+        height: 60px;
+        margin-left: 10px;
+        flex-shrink: 0;
 }
 #header-links{
-    width: 70%;
-    height: 50%;
-    /* border: 1px solid red; */
-    margin-left: 20px;
-    margin-top: 5px;
+    width: 100%;
+        height: auto;
+        margin-left: 0;
+        margin-top: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
 
 
 }
@@ -416,7 +415,7 @@
 }
 #footer-container{
     width: 100%;
-    height: 550px;
+    height: auto;
     /* border: 2px solid red; */
     background-image: url(/images/footer-image.jpg);
     /* background-size: cover; */
@@ -428,7 +427,7 @@
     font-size: 14px;
     font-weight: bold;
     color: white;
-    padding-top: 40px;
+    padding-top: 50px;
     text-align: center;
 }
 .read-heading5{
@@ -441,16 +440,18 @@
     margin-top: 25px;
 }
 .lorem-div{
-    width: 80%;
-    height: 150px;
-    margin-left: 50px;
-
+    width: 95%;
+    height: auto;
+    margin-left: auto;
+        margin-right: auto;
 }
+
+
 .lorem2{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     /* padding-left: 46px; */
-    padding-top: 30px;
+    padding-top: 20px;
     letter-spacing: 1px;
     line-height: 27px;
     text-align: center;
@@ -465,8 +466,10 @@
     background-color: #9D467E;
     color: white;
     border-radius: 30px;
-    margin-top: 10px;
-    margin-left: 125px;
+     display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 25px;
     letter-spacing: 1px;
 }
 .appointment-btn3:hover{
@@ -492,13 +495,13 @@
 }
 .copyright{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-   
+    font-size: 13px;
+   padding-left: 0;
     padding-top: 0px;
     letter-spacing: 1px;
     line-height: 27px;
      text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
     color: white;
     /* display: inline-block;
     vertical-align: top; */
@@ -506,12 +509,13 @@
 .powered{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 13px;
     
     margin-top: 0px;
     letter-spacing: 1px;
     line-height: 27px;
-    padding-left: 80px;
+    padding-right: 0;
+    padding-left: 0px;
     /* text-align: center; */
     color: white;
     /* display: inline-block;
@@ -521,7 +525,7 @@
 /* --------- */
 #about-hero{
     width: 100%;
-    height: 150px;
+    height: auto;
     /* border: 2px solid red; */
     display: flex;
     justify-content: center;
@@ -536,14 +540,15 @@
 .about-heading{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 44px;
     color: white;
     padding-left: 0px;
     text-align: center;
 }
 #about-me{
     width: 100%;
-    height: 1050px;
+    height: auto;
+    padding-bottom: 40px;
     /* border: 2px solid red; */
     background-color: #F4F4F4;
 }
@@ -557,10 +562,10 @@
  .lorem-txt{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    padding-left: 30px;
+    font-size: 15px;
+    padding-left: 15px;
     letter-spacing: 1px;
-    line-height: 25px;
+    line-height: 22px;
     word-spacing: 5px;
     padding-top: 40px;
  }
@@ -570,20 +575,19 @@
     border-radius: 50%;
     background-image: url(/images/clients01-free-img.jpg);
     background-size: cover;
-    margin-left: 140px;
-    margin-top: 0px;
-    display: inline-block;
-    vertical-align: top;
+    margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        display: block;
  }
  .name{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     /* font-weight: bold; */
-    text-align: center;
-    display: inline-block;
-    vertical-align: top;
-    padding-top: 10px;
-    margin-left: 20px;
+    display: block;
+        margin-left: 0;
+        padding-top: 10px;
+        text-align: center;
      letter-spacing: 1px;
  }
 .actress{
@@ -591,30 +595,28 @@
     font-size: 13px;
     /* font-weight: bold; */
     text-align: center;
-    /* display: inline-block;
-    vertical-align: top; */
-    margin-top: -25px;
-    padding-left: 140px;
+    
+    padding-left: 0;
+        margin-top: 5px;
+        text-align: center;
      letter-spacing: 1px;
      color: rgb(36, 36, 36);
 }
 #few-words{
     width: 400px;
-    height: 311px;
-    margin-top: 170px;
-    /* border: 1px solid red; */
-    display: inline-block;
-    vertical-align: top;
+    height: auto;
+    display: block;
+        margin-top: 30px;
+        padding: 0 15px;
 }
 #picture{
     width: 100%;
-    height: 204px;
-     margin-top: -270px;
-    /* border: 1px solid red; */
-    display: inline-block;
-    vertical-align: top;
+        height: 220px;
+        display: block;
+        margin-top: 20px;
+        background-size: cover;
     background-image: url(/images/pic-10.jpg);
-    background-size: 100% 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     
 }
@@ -624,25 +626,25 @@
     font-size: 15px;
     color: #9D467E;
     padding-left: 0px;
-    margin-top: -100px;
+    margin-top: 20px;
     text-align: center;
 }
 .who-heading{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
     font-size: 25px;
     color: #9D467E;
     padding-left: 0px;
-    padding-top: 20px;
-      text-align: center;
+    padding-top: 10px;
+    text-align: center;
     
 }
 #textbox{
-    width: 90%;
-    height: 300px;
-    /* border: 1px solid red; */
-    margin-left: 25px;
-    margin-top: -50px;
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+        margin-top: 20px;
+        padding: 0 15px;
 
 }
 .bold-paragraph{
@@ -651,22 +653,20 @@
     font-weight: 14px;
     line-height: 25px;
     letter-spacing: 0.5px;
+    padding-right: 0;
 }
 .para2{
-    width: 300px;
-    height: 250px;
-    /* border: 1px solid red; */
-    margin-top: 40px;
-    display: inline;
-    margin-left: 0px;
+   width: 100%;
+        height: auto;
+        display: block;
+        margin-left: 0;
+        margin-top: 20px;
 }
 .para{
-    width: 300px;
-    height: 250px;
-    /* border: 1px solid red; */
-    margin-top: 50px;
-    display: inline;
-    /* margin-left: 50px; */
+   width: 100%;
+        height: auto;
+        display: block;
+        margin-top: 20px;
 }
 .para-txt{
     font-family: Arial, Helvetica, sans-serif;
@@ -674,16 +674,13 @@
     line-height: 25px;
     font-size: 14px;
     margin-top: 35px;
-    display: inline-block;
-    vertical-align: top;
+    display: block;
 
 }
 #massage-benifits{
-    width: 90%;
-    height: 810px;
-    margin-top: 150px;
-    text-align: start;
-    margin-left: 25px;
+    width: 100%;
+    height: auto;
+    padding: 0 15px 40px;
     /* border: 2px solid red; */
 }
 .whoo{
@@ -691,8 +688,9 @@
     font-weight: bold;
     font-size: 15px;
     color: #9D467E;
-    padding-left: 30px;
-    margin-top: -200px;
+    padding-left: 0px;
+    margin-top: 20px;
+    text-align: center;
     
 }
 .whoo-heading{
@@ -700,29 +698,31 @@
     font-weight: bold;
     font-size: 25px;
     color: #9D467E;
-    padding-left: 30px;
-    padding-top: 20px;
+    padding-left: 0px;
+    padding-top: 10px;
+    text-align: center;
       
     
 }
 .number-boxs{
-    width: 430px;
-    height: 100px;
+    width: 100%;
+    height: auto;
     border-bottom: 1px solid #9D467E;
     margin-left: 0px;
-    margin-top: 50px;
+    margin-top: 30px;
+    padding-bottom: 15px;
 }
 .number-box{
-    width: 430px;
-    height: 100px;
-    border-bottom: 1px solid #9D467E;
-    margin-left: 10px;
-    margin-top: 33px;
+    width: 100%;
+        height: auto;
+        margin-left: 0;
+        margin-top: 20px;
+        padding-bottom: 15px;
 }
 .numbers{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
-    font-size: 23px;
+    font-size: 24px;
     color: #9D467E;
 
 }
@@ -730,7 +730,7 @@
    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
     padding-top: 15px;
-    font-size: 15px;
+    font-size: 16px;
     color: #9D467E; 
 }
 .appointment-btn3:hover{
