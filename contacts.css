@@ -605,6 +605,7 @@ html, body {
     display: block;
     margin-top: 50px;
      margin-left: 0;
+     padding-bottom: 40px;
     
 }
 .welcome3{
@@ -615,6 +616,7 @@ html, body {
     text-align: center;
     color: #9D467E;
     margin-left: 0px;
+    padding-top: 30px;
     letter-spacing: 0.3px;
     /* margin-top: 90px; */
 
@@ -680,10 +682,10 @@ html, body {
     color: #9D467E;
     text-align: center;
     letter-spacing: 0.3px;  
-    display: inline-block;
+    display: block;
      margin-top: 50px;
-     padding-left: 120px;
-    vertical-align: top;
+     padding-left: 0px;
+    
 }
 .contact-item{
     margin-left: 0;
@@ -696,8 +698,10 @@ html, body {
   /* margin-right: 10px; */
 }
 .social-icons{
-    margin-left: 95px;
-    margin-top: -20px;
+    margin-left: 0px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .social-icons i {
   /* background: #a24c7b; */
@@ -784,7 +788,7 @@ html, body {
 }
 .map{
     width: 100%;
-    height: 400px;
+    height: auto;
     /* border: 1px solid red; */
 }
     }
