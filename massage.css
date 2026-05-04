@@ -1,3 +1,11 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+ 
+html, body {
+    overflow-x: hidden;
+}
+ 
 *{
     margin: 0%;
     padding: 0%;
@@ -402,32 +410,30 @@ justify-content: space-between;
      @media screen and (max-width: 580px){
     #hero-container{
     width: 100%;
-    height: 100px;
+    height: auto;
 }
 #header-container{
-    width: 100%;
-    height: 117px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    /* border: 1px solid black; */
+    height: auto;
+        min-height: 80px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 10px;
 }
 #logo-pic{
     width: 100px;
-    height: 80%;
-    background-image: url(/images/massage-black-logo-free.svg);
-    background-size: 100% 100%;
-    margin-left: 10px;
-    margin-top: 25px;
-    /* display: inline-block;
-    vertical-align: top; */
+        height: 60px;
+        margin-left: 10px;
+        flex-shrink: 0;
 }
 #header-links{
-    width: 70%;
-    height: 50%;
-    /* border: 1px solid red; */
-    margin-left: 20px;
-    margin-top: 5px;
+    width: 100%;
+        height: auto;
+        margin-left: 0;
+        margin-top: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
 
 
 }
@@ -446,14 +452,17 @@ justify-content: space-between;
 }
 .appointment-btn{
     width: 130px;
-    height: 45px;
+    height: 42px;
     border: none;
     background-color: #9D467E;
     color: white;
-    font-size: 11px;
+    font-size: 12px;
     border-radius: 30px;
-    margin-left: 185px;
-    letter-spacing: 0.5px;
+    margin-top: 15px;
+    letter-spacing: 1px;
+    
+    margin-left: auto;
+    margin-right: auto;
 }
 .appointment-btn:hover{
     background-color: #C157A3;
@@ -461,7 +470,7 @@ justify-content: space-between;
 }
 #footer-container{
     width: 100%;
-    height: 550px;
+    height: auto;
     /* border: 2px solid red; */
     background-image: url(/images/footer-image.jpg);
     /* background-size: cover; */
@@ -473,7 +482,7 @@ justify-content: space-between;
     font-size: 14px;
     font-weight: bold;
     color: white;
-    padding-top: 40px;
+    padding-top: 50px;
     text-align: center;
 }
 .read-heading5{
@@ -486,15 +495,18 @@ justify-content: space-between;
     margin-top: 25px;
 }
 .lorem-div{
-    width: 90%;
-    height: 150px;
-    margin-left: 25px;
+    width: 95%;
+    height: auto;
+    margin-left: auto;
+        margin-right: auto;
 }
+
+
 .lorem2{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     /* padding-left: 46px; */
-    padding-top: 30px;
+    padding-top: 20px;
     letter-spacing: 1px;
     line-height: 27px;
     text-align: center;
@@ -509,8 +521,10 @@ justify-content: space-between;
     background-color: #9D467E;
     color: white;
     border-radius: 30px;
-    margin-top: 10px;
-    margin-left: 125px;
+     display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 25px;
     letter-spacing: 1px;
 }
 .appointment-btn3:hover{
@@ -531,18 +545,17 @@ justify-content: space-between;
     font-size: 25px;
     color: white;
     text-align: center;
-    /* letter-spacing: 0.3px; */
-    margin-top: 10px;
+    padding: 0 15px;
 }
 .copyright{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-   
+    font-size: 13px;
+   padding-left: 0;
     padding-top: 0px;
     letter-spacing: 1px;
     line-height: 27px;
      text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
     color: white;
     /* display: inline-block;
     vertical-align: top; */
@@ -550,27 +563,28 @@ justify-content: space-between;
 .powered{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 13px;
     
     margin-top: 0px;
     letter-spacing: 1px;
     line-height: 27px;
-    padding-left: 80px;
+    padding-right: 0;
+    padding-left: 0px;
     /* text-align: center; */
     color: white;
     /* display: inline-block;
     vertical-align: top; */
     
 }
+/* --------- */
 #about-hero{
     width: 100%;
-    height: 150px;
+    height: 160px;
     /* border: 2px solid red; */
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
-    
-     background-image: url(/images/pic-11.jpg);
+    background-image: url(/images/katherine-hanlon.jpg);
     background-size: cover;
     background-position: center;
     background-blend-mode: overlay;
@@ -580,15 +594,16 @@ justify-content: space-between;
 .about-heading{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 44px;
     color: white;
-    padding-left: 140px;
+    padding-left: 0px;
     text-align: center;
 }
 /* --------------- */
 #moment-container{
     width: 100%;
-    height: 260px;
+    height: auto;
+     padding: 40px 15px 30px;
     /* border: 2px solid red; */
     background-color: #F4F4F4;
 }
@@ -599,12 +614,12 @@ justify-content: space-between;
     color: #9D467E;
     text-align: center;
     /* padding-left: 88px;*/
-    padding-top: 40px; 
+    padding-top: 0px; 
 }
 .moment-heading{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
-    font-size: 28px;
+    font-size: 26px;
     text-align: center;
     color: #9D467E;
     /* padding-left: 86px; */
@@ -618,80 +633,81 @@ justify-content: space-between;
 .lorem-txt{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 14px;
     letter-spacing: 1px;
     line-height: 25px;
     word-spacing: 1px;
-    padding-top: 20px;
+    padding-top: 15px;
+    padding-left: 0;
+    padding-right: 0;
  }
  /* -------- */
  .services-container{
     width: 100%;
-    height: 477px;
-    display: inline;
+    height: auto;
+        display: block;
 
 }
 .services-container2{
     width: 100%;
-    height: 477px;
-    display: inline;
+    height: auto;
+        display: block;
 
 }
 .service-pic1{
     width: 100%;
-    height: 400px;
+    height: 260px;
     /* border: 1px solid black; */
     background-image: url(/images/pic-04-400x337.jpg);
-    background-size: 100% 100%;
+    background-size: cover;
 }
 .service-pic2{
     width: 100%;
-    height: 400px;
+   height: 260px;
     /* border: 1px solid black; */
     background-image: url(/images/pic-02-400x337.jpg);
-    background-size: 100% 100%;
+    background-size: cover;
 }
 .service-pic3{
     width: 100%;
-    height: 400px;
+    height: 260px;
     /* border: 1px solid black; */
     background-image: url(/images/pic-03-300x253.jpg);
-    background-size: 100% 100%;
+    background-size: cover;
 }
 .service-boxes{
     width: 100%;
-    height: 330px;
-    
+    height: auto;
+    padding: 25px 15px 30px;
     /* border: 1px solid black; */
     background-color: white;
-    margin-top: -125px;
 }
 .welcome2{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 15px;
     padding-left: 25px;
     /* text-align: center; */
     color: #9D467E;
     letter-spacing: 0.3px;
-    margin-top: 150px;
+    margin-top: 0px;
 
 }
 .read-heading2{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 24px;
     color: #9D467E;
-    padding-left: 25px;
+    padding-left: 0px;
     /* text-align: center; */
     letter-spacing: 0.3px;
     margin-top: 3px;
 }
 .paragraph2{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 14px;
     color: black;
-    padding-left: 25px;
+    padding-left: 0;
     /* text-align: center; */
     line-height: 25px;
     letter-spacing: 0.5px;
@@ -705,35 +721,36 @@ justify-content: space-between;
     border-radius: 25px;
     background-color: #9D467E;
     color: white;
-    margin-top: 46px;
-    font-size: 16px;
-    margin-left: 210px;
+   display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
 }
 .benefit-head{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 20px;
     color: #9D467E;
-    padding-left: 25px;
+    padding-left: 0px;
     /* text-align: center; */
     letter-spacing: 0.3px;
     margin-top: 35px;
 }
 .benefit-para{
     list-style: none;
-    padding-left: 25px;
+    padding-left: 0;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 30px;
-    font-size: 16px;
+    margin-top: 15px;
+    font-size: 14px;
     letter-spacing: 1px;
     font-weight: lighter;
 }
 .benefit-para1{
     list-style: none;
-    padding-left: 25px;
+    padding-left: 0px;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 5px;
-    font-size: 16px;
+    font-size: 14px;
     letter-spacing: 1px;
     font-weight: lighter;
 }
@@ -741,29 +758,31 @@ justify-content: space-between;
 /* ------------massage------------ */
 #massage-container{
     width: 100%;
-    height: 1340px;
+    height: auto;
+    padding-bottom: 40px;
     /* border: 2px solid red; */
     background-color: #F4F4F4;
 }
 .type-container{
-width: 89.5%;
-height: 120px;
+width: 100%;
+height: auto;
 /* border: 1px solid black; */
-margin-left: 150px;
-display: inline;
-margin-top: 0px;
+margin-left: 0px;
+display: block;
+margin-top: 20px;
+  padding: 0 15px;
 
 }
 .massage-types{
-    width: 430px;
-    height: 130px;
-    margin-left: 25px;
-    /* border: 1px solid red; */
+    width: 100%;
+        height: auto;
+        margin-top: 25px;
+        text-align: center;
 }
 .welcome3{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 14px;
     /* padding-left: 95px; */
     text-align: center;
     color: #9D467E;
@@ -774,7 +793,7 @@ margin-top: 0px;
 .read-heading3{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 22px;
     color: #9D467E;
     /* padding-left: 95px; */
     text-align: center;
@@ -783,7 +802,7 @@ margin-top: 0px;
 }
 .paragraph3{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 14px;
     color: black;
     word-spacing: 3px;
     /* padding-left: 95px; */

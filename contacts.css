@@ -1,3 +1,11 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+ 
+html, body {
+    overflow-x: hidden;
+}
+ 
 *{
     margin: 0%;
     padding: 0%;
@@ -387,31 +395,30 @@
     @media screen and (max-width: 580px){
     #hero-container{
     width: 100%;
-    height: 100px;
+    height: auto;
 }
 #header-container{
-    width: 100%;
-    height: 117px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    height: auto;
+        min-height: 80px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 10px;
 }
 #logo-pic{
     width: 100px;
-    height: 80%;
-    background-image: url(/images/massage-black-logo-free.svg);
-    background-size: 100% 100%;
-    margin-left: 10px;
-    margin-top: 25px;
-    /* display: inline-block;
-    vertical-align: top; */
+        height: 60px;
+        margin-left: 10px;
+        flex-shrink: 0;
 }
 #header-links{
-    width: 70%;
-    height: 50%;
-    /* border: 1px solid red; */
-    margin-left: 20px;
-    margin-top: 5px;
+    width: 100%;
+        height: auto;
+        margin-left: 0;
+        margin-top: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
 
 
 }
@@ -430,14 +437,17 @@
 }
 .appointment-btn{
     width: 130px;
-    height: 45px;
+    height: 42px;
     border: none;
     background-color: #9D467E;
     color: white;
-    font-size: 11px;
+    font-size: 12px;
     border-radius: 30px;
-    margin-left: 185px;
-    letter-spacing: 0.5px;
+    margin-top: 15px;
+    letter-spacing: 1px;
+    
+    margin-left: auto;
+    margin-right: auto;
 }
 .appointment-btn:hover{
     background-color: #C157A3;
@@ -445,7 +455,7 @@
 }
 #footer-container{
     width: 100%;
-    height: 550px;
+    height: auto;
     /* border: 2px solid red; */
     background-image: url(/images/footer-image.jpg);
     /* background-size: cover; */
@@ -457,7 +467,7 @@
     font-size: 14px;
     font-weight: bold;
     color: white;
-    padding-top: 40px;
+    padding-top: 50px;
     text-align: center;
 }
 .read-heading5{
@@ -470,15 +480,18 @@
     margin-top: 25px;
 }
 .lorem-div{
-    width: 90%;
-    height: 150px;
-    margin-left: 25px;
+    width: 95%;
+    height: auto;
+    margin-left: auto;
+        margin-right: auto;
 }
+
+
 .lorem2{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     /* padding-left: 46px; */
-    padding-top: 30px;
+    padding-top: 20px;
     letter-spacing: 1px;
     line-height: 27px;
     text-align: center;
@@ -493,8 +506,10 @@
     background-color: #9D467E;
     color: white;
     border-radius: 30px;
-    margin-top: 10px;
-    margin-left: 125px;
+     display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 25px;
     letter-spacing: 1px;
 }
 .appointment-btn3:hover{
@@ -515,18 +530,17 @@
     font-size: 25px;
     color: white;
     text-align: center;
-    /* letter-spacing: 0.3px; */
-    margin-top: 10px;
+    padding: 0 15px;
 }
 .copyright{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-   
+    font-size: 13px;
+   padding-left: 0;
     padding-top: 0px;
     letter-spacing: 1px;
     line-height: 27px;
      text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
     color: white;
     /* display: inline-block;
     vertical-align: top; */
@@ -534,27 +548,28 @@
 .powered{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 13px;
     
     margin-top: 0px;
     letter-spacing: 1px;
     line-height: 27px;
-    padding-left: 80px;
+    padding-right: 0;
+    padding-left: 0px;
     /* text-align: center; */
     color: white;
     /* display: inline-block;
     vertical-align: top; */
     
 }
+/* --------- */
 #about-hero{
     width: 100%;
-    height: 150px;
+    height: 160px;
     /* border: 2px solid red; */
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
-    
-      background-image: url(/images/pic-12.jpg);
+    background-image: url(/images/katherine-hanlon.jpg);
     background-size: cover;
     background-position: center;
     background-blend-mode: overlay;
@@ -564,38 +579,38 @@
 .about-heading{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 44px;
     color: white;
-    padding-left: 160px;
+    padding-left: 0px;
     text-align: center;
 }
 
 /* ------------ */
 #contact{
-    width: 80%;
-    height: 1150px;
+    width: 100%;
+    height: auto;
     /* border: 2px solid red; */
 }
 .contact-text{
     width: 100%;
-    height: 600px;
-    
-     margin-top: 110px;
+    height: auto;
+     margin-top: 0px;
+     margin-left: 0;
 }
 .contact-form{
-    width: 430px;
-    height: 600px;
-    margin-left: 25px;
+    width: 100%;
+    height: auto;
+    margin-left: 0px;
     /* border: 1px solid red; */
-    display: inline-block;
-    vertical-align: top;
-    margin-top: -70px;
+    display: block;
+    margin-top: 50px;
+     margin-left: 0;
     
 }
 .welcome3{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 14px;
     /* padding-left: 95px; */
     text-align: center;
     color: #9D467E;
@@ -607,7 +622,7 @@
 .read-heading3{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 25px;
     color: #9D467E;
     margin-left: 0px;
     /* padding-left: 95px; */
@@ -631,8 +646,9 @@
 .lorem5{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
-    margin-left: -150px;
-    padding-top: 3px;
+    margin-left: 0px;
+    padding: 0 15px;
+    
     letter-spacing: 1px;
     text-align: center;
     
@@ -670,7 +686,8 @@
     vertical-align: top;
 }
 .contact-item{
-    margin-left: 140px;
+    margin-left: 0;
+    text-align: center;
 }
 .contact-item i {
   /* color: #a24c7b; */
